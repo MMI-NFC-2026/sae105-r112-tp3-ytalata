@@ -60,3 +60,36 @@ img {
   justify-content: center;
   margin-top: 16px;
 }
+/* Cache le titre h2 visuellement (reste lu par les lecteurs d'écran) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Repère pour positionner les boutons */
+.carousel {
+  position: relative;
+}
+
+/* Les boutons passent par-dessus les images */
+.carousel__controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 16px;
+  pointer-events: none;
+}
+
+.carousel__button {
+  pointer-events: auto;
+  background: white;
+  cursor: pointer;
+}
