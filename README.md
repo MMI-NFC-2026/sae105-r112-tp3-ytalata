@@ -1,5 +1,5 @@
-- nom :
-- prénom :
+- nom :talata
+- prénom :yanis
 - URL Netlify :
 
 # Travail
